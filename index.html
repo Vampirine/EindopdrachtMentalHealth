@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mental Health Movies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img class="navImg" src="image/mental-health-mental-health-awareness-month.gif" alt="Logo">
+      <div class="links">
+        <a href="">Home</a>
+        <a href="">Movies</a>
+        <a href="">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mainSect">
+      <h1>Mental Health Movies</h1>
+      <div class="itemSummary">
+        <h2 class="Description"> Description </h2>
+        <p class="KO">
+          A mental health movie is a film that explores and portrays various aspects of mental health,
+          mental illness, and the human experience related to psychological well-being. These movies often
+          aim to raise awareness, reduce stigma, and provide insight into the complexities of mental health issues.
+          Here's a fictional movie description as an example:
+        </p>
+
+      </div>
+    </section>
+
+    <section class="relatedItems">
+      <hr>
+      <h2>Movies</h2>
+      <div class="relatedFlexbox">
+        <div class="first">
+          <h3>TO THE BONE</h3>
+          <img src="image/movie2.jpg" alt="bone">
+          <p>
+            To the Bone is a 2017 American drama film, written and directed by Marti Noxon.
+            The film follows a young woman, portrayed by Lily Collins, as she battles anorexia.
+            The film premiered in competition at the Sundance Film Festival on January 22, 2017,
+            as a contender in the U.S. Dramatic Competition. It was released worldwide on Netflix on
+            July 14, 2017. Netflix's release of the film was met with controversy, with some arguing that
+            the film glamorises anorexia
+          </p>
+          <button class="seenow">See now</button>
+        </div>
+        <div class="second">
+          <h3>GIRL INTERRUPTED</h3>
+          <img src="image/movie1.jpg" alt="INTERRUPTED">
+          <p>
+            Girl, Interrupted is a 1999 American psychological drama film written and directed by James
+            Mangold,
+            from a screenplay by Mangold, Lisa Loomer, and Anna Hamilton Phelan, and based on the 1993
+            memoir of
+            the same name by Susanna Kaysen. Starring Winona Ryder, Angelina Jolie, Clea DuVall, Brittany
+            Murphy,
+            Elisabeth Moss, Jared Leto, Angela Bettis, Jeffrey Tambor, Vanessa Redgrave, and Whoopi
+            Goldberg, the film
+            follows a young woman who spends 18 months institutionalized at a psychiatric hospital following
+            a suicide attempt.
+          </p>
+          <button class="seenow">See now</button>
+        </div>
+        <div class="third">
+          <h3>WRISTCUTTERS a love story</h3>
+          <img src="image/movie3.jpg" alt="WRISTCUTTERS">
+          <p>
+            Wristcutters: A Love Story is a 2006 comedy film written and directed by Goran Dukić. It
+            stars Patrick Fugit,
+            Shea Whigham, and Shannyn Sossamon as denizens of a strange afterlife way-station that has been
+            reserved for people
+            who committed suicide. It is based on Etgar Keret's short story "Kneller's Happy Campers." A
+            graphic novel version was
+            titled Pizzeria Kamikaze. The film was produced on an estimated budget of $1 million. It
+            premiered at the 2006 Sundance
+            Film Festival and was distributed in limited release on October 19, 2007, before being expanded
+            into wide release on November 2,
+            2007. Lionsgate Home Entertainment released it on DVD on March 25, 2008. The film received
+            positive reviews and has since garnered
+            a cult following.
+          </p>
+          <button class="seenow">See now</button>
+        </div>
+      </div>
+    </section>
+
+    <form class="flex-container">
+
+      <h1>Contact Form</h1>
+
+      <div class="flex-row">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="E-mail">
+        <label for="residence">residence</label>
+        <input type="text" id="residence" name="residence" placeholder="residence">
+      </div>
+      <div>
+        <label for="geboorte">Date of Birth:</label>
+        <input type="date" id="geboorte" name="geboorte">
+      </div>
+
+      <div>
+        <label for="movie">Choose ur movie:</label>
+        <select name="Game" id="Game">
+          <option value="To the Bone">To the Bone</option>
+          <option value="Girl Interrupted">Girl Interrupted</option>
+          <option value="Wristcutters a love story">Wristcutters a love story</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Are you having trouble?:</label>
+        <div class="flex-row">
+          <div>
+            <input type="radio" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="No" name="No" value="No">
+            <label for="No">No</label>
+          </div>
+        </div>
+      </div>
+
+      <label for="motivatie">Ur message:</label>
+      <textarea id="motivatie" name="motivatie" rows="4" cols="50"></textarea>
+
+      <div>
+        <input type="checkbox" id="privacy" name="privacy" value="Privacy">
+        <label for="privacy"> Accept Privacy</label><br>
+        <input type="checkbox" id="cookies" name="cookies" value="Cookies">
+        <label for="cookies"> Accept All Cookies</label><br>
+      </div>
+      <input type="submit" value="Send">
+
+    </form>
+
+  </main>
+
+
+  <footer>
+    <a href="">Privacy Policiy</a>
+    <a href="">Terms and conditions</a>
+    <a href="">Contact</a>
+    <a href="">Cookies</a>
+  </footer>
+</body>
+
+</html>

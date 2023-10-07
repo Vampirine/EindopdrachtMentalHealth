@@ -1,0 +1,309 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; margin-bottom: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #2b0031
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*nav bar*/
+
+nav {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #60007e;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  top: 0;
+}
+
+.links {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.navImg {
+  margin-right: 0.5rem;
+  width: 5%;
+}
+
+/*extra*/
+img {
+  border-radius: 5%;
+  width: 300px;
+}
+
+.productImage {
+  width: 50%;
+  height: 50%;
+}
+
+.seenow {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #cfabda;
+  border: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.seenow:hover {
+  background-color: #370057;
+  color: rgb(255, 255, 255);
+}
+
+/*main section*/
+
+.mainSect {
+  padding-top: 5rem;
+
+
+  background-image: url(./image/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(141, 0, 184);
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.mainSectFlexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.itemSummary {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1,
+h2 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+/*Summary*/
+.info {
+  margin-top: 8rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 8rem;
+}
+
+.infoFlexbox {
+  display: flex;
+  gap: 10rem;
+
+}
+
+.featurebox {
+  color: black;
+  background-color: #7e2781;
+  margin: 2rem 0rem;
+  padding-left: 2rem;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 10%;
+}
+
+/*Related*/
+.relatedItems {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+}
+
+.relatedFlexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first,
+.second,
+.third {
+  max-width: 360px;
+  border: 5px solid rgb(57, 0, 90);
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  justify-items: center;
+
+
+}
+
+.relatedFlexbox img {
+  width: 100%;
+}
+
+
+/*footer*/
+
+form {
+  padding: 10rem 0;
+  background-color: #bd96c9;
+  margin-top: 10rem;
+}
+
+footer {
+  color: black;
+  background-color: #000000;
+  padding: 3rem;
+  text-align: center;
+  font-size: medium
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
+
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #000000;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  top: 0;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #530045;
+
+}
+
+
+.navImg {
+  margin-right: 0.5rem;
+  width: 5%;
+}
+
+
+.flex-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b68ac9;
+  margin-top: 50px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.relatedItems {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+}
+
+.relatedFlexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+hr.solid {
+  width: 80%;
+  border-top: 1px solid #000000;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  padding: 10px;
+  margin: 5px 5px;
+  border: 1px solid #643570;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/*Related*/
+.relatedItems {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+}
+
+.relatedFlexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first,
+.second,
+.third {
+  max-width: 360px;
+}
